@@ -1,0 +1,30 @@
+1. Jelaskan apa yang dimaksud dengan NoSQL menggunakan pemahaman yang kalian ketahui !
+NoSQL (Not Only SQL) adalah sebuah pendekatan dalam pengelolaan dan penyimpanan data yang berbeda dari sistem manajemen basis data relasional (RDBMS). Konsep NoSQL merujuk pada berbagai jenis basis data yang dirancang untuk mengatasi beberapa kendala yang mungkin muncul dalam lingkungan modern yang membutuhkan skalabilitas, fleksibilitas, dan kinerja tinggi. 
+
+2. Jelaskan kapan harus menggunakan NoSQL dan Relational Database Management System !
+    NoSQL digunakan saat:
+    1. Skema Data Fleksibel: Jika Anda menghadapi data dengan skema yang tidak tetap, dan skema tersebut dapat berubah seiring waktu, NoSQL adalah pilihan yang baik. Basis data NoSQL memungkinkan Anda untuk menyimpan data tanpa harus mendefinisikan skema yang ketat terlebih dahulu.
+
+    2. Skalabilitas Horizontal: Jika aplikasi Anda membutuhkan skalabilitas horizontal yang mudah untuk menangani pertumbuhan data yang cepat atau beban kerja tinggi, NoSQL sering menjadi pilihan yang lebih baik daripada RDBMS.
+
+    3. Model Data yang Beragam: Jika jenis data yang Anda hadapi beragam, seperti data dokumen, data grafik, atau data key-value, NoSQL menyediakan berbagai model data yang sesuai untuk kebutuhan tersebut.
+
+    4. Kinerja Tinggi: Aplikasi yang memerlukan kinerja tinggi, seperti aplikasi daring berbasis real-time atau aplikasi media sosial, sering kali memanfaatkan kecepatan dan skalabilitas NoSQL.
+
+    5. Pengembangan Cepat dan Iteratif: Dalam pengembangan perangkat lunak yang bersifat eksperimental atau memerlukan iterasi cepat, NoSQL dapat mempermudah perubahan struktur data tanpa harus memikirkan perubahan skema yang rumit.
+
+    6. Data Terdistribusi: Jika aplikasi Anda harus beroperasi dalam lingkungan yang terdistribusi dan data harus dapat diakses dari berbagai lokasi fisik, NoSQL dapat mengatasi kebutuhan ini dengan baik.
+
+    RDBMS dignakan saat:
+    1. Skema Data Tetap: Jika data Anda memiliki skema yang tetap dan tidak akan berubah sering, RDBMS adalah pilihan yang baik. Ini cocok untuk aplikasi yang memerlukan konsistensi data yang tinggi.
+
+    2. Transaksi yang Rumit: Aplikasi yang memerlukan transaksi yang kompleks dan membutuhkan integritas data yang tinggi (seperti sistem perbankan) umumnya lebih baik disimpan di dalam RDBMS.
+
+    3. Kemampuan ACID: Jika aplikasi Anda membutuhkan transaksi yang sesuai dengan properti ACID (Atomicity, Consistency, Isolation, Durability), RDBMS adalah pilihan yang unggul karena telah dirancang khusus untuk ini.
+
+    4. Hubungan Antar Tabel: Jika data Anda memiliki banyak relasi antar tabel, seperti di dalam sistem informasi manajemen atau sistem HR, maka RDBMS dengan dukungan relasionalnya adalah pilihan yang lebih baik.
+
+    5. Akses Laporan dan Analitik: Jika aplikasi Anda memerlukan akses mudah ke data untuk laporan, analitik, dan kueri kompleks, RDBMS sering memberikan keunggulan.
+
+3. Sebutkan contoh 2 tools/platform NoSQL selain ElasticSearch beserta keunggulan tools/platform tersebut !
+MongoDB dan Cassandra , Kedua basis data ini memiliki keunggulan dan kelemahan mereka sendiri. MongoDB lebih cocok untuk aplikasi yang memerlukan fleksibilitas skema dan model data dokumen, sementara Cassandra lebih cocok untuk aplikasi yang memerlukan skala besar, toleransi kesalahan tinggi, dan kinerja tinggi dalam lingkungan terdistribusi.
