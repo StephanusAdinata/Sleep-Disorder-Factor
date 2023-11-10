@@ -18,7 +18,11 @@ This repository contains:
 # File and Folder Overview
 
 SleepDisorder.py = Functions for import data from SQL - Python - NoSQL
+
 Image(Folder) = Contains the result of visualization using Kibana also the insight
+
 SleepDisorder_DDL = SQL Querry
+
 P2G7_Stephanus_data_clean.csv = CSV cleaned file
+
 P2G7_Stephanus_data_raw.csv = CSV default / raw file
