@@ -15,9 +15,9 @@ warnings.simplefilter(action='ignore', category=UserWarning)
 
 def get_data():
     '''
-    Fungsi untuk Import data dari postgres ke python
+    Fuction for Import Data from Postgres to Python
     '''
-    conn_string="dbname='FTDS' host='localhost' user='postgres' password='sitepo157'"
+    conn_string="dbname='FTDS' host='localhost' user='postgres' password='------'" #Credential Password
     conn=db.connect(conn_string)
 
     df=pd.read_sql("select * from table_g7", conn)
